@@ -37,7 +37,7 @@ const HeroBanner = () => {
 					<div className="col-xxl-10 m-auto">
 						<div className="search-wrapper-one layout-one position-relative wow fadeInUp" data-wow-delay="0.2s">
 							<div className="bg-wrapper">
-                        <DropdownOne style={true} />
+                        <DropdownOne style={{ backgroundColor: "#f5f5f5", padding: "20px" }} />
                      </div>
                   </div>
                </div>
