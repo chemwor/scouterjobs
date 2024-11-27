@@ -19,7 +19,7 @@ const Banner = () => {
                <div className="col-xxl-10 m-auto">
                   <div className="search-wrapper-one layout-one bg position-relative">
                      <div className="bg-wrapper">
-                        <DropdownOne style={false} />
+                        <DropdownOne style={{ backgroundColor: "#f5f5f5", padding: "20px" }}/>
                      </div>
                   </div>
                </div>
