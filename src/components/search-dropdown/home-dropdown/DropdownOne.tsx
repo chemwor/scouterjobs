@@ -18,6 +18,7 @@ const DropdownOne: React.FC = () => {
     });
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+        // @ts-ignore
         const { name, value, type, checked } = e.target;
         if (type === "checkbox") {
             setFormData((prev: any) => ({
