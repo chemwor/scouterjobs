@@ -1,6 +1,21 @@
 import React, { useState } from "react";
 
-const DropdownOne: React.FC = () => {
+interface DropdownOneProps {
+    style?: React.CSSProperties;
+}
+
+const defaultStyles: React.CSSProperties = {
+    width: "90%",
+    maxWidth: "600px",
+    margin: "30px auto",
+    background: "#fff",
+    borderRadius: "8px",
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    padding: "20px",
+    fontFamily: "Arial, sans-serif",
+};
+
+const DropdownOne: React.FC<DropdownOneProps> = ({ style }) => {
     const [currentSection, setCurrentSection] = useState(0);
     const sections = ["Basic Information", "Food Preferences", "Meal Plan Specifics", "Finalize and Submit"];
 
@@ -58,7 +73,7 @@ const DropdownOne: React.FC = () => {
     };
 
     return (
-        <div style={styles.container}>
+        <div style={{ ...defaultStyles, ...style }}>
             <form onSubmit={handleSubmit}>
                 {currentSection === 0 && (
                     <div style={styles.section}>
@@ -243,52 +258,32 @@ const DropdownOne: React.FC = () => {
 };
 
 const styles: { [key: string]: React.CSSProperties } = {
-    container: {
-        width: "90%",
-        maxWidth: "600px",
-        margin: "30px auto",
-        background: "#fff",
-        borderRadius: "8px",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-        padding: "20px",
-        fontFamily: "Arial, sans-serif",
-    },
     section: {
-        display: "block",
+        marginBottom: "20px",
     },
     header: {
         fontSize: "24px",
-        marginBottom: "20px",
-        color: "#333",
+        marginBottom: "10px",
     },
     label: {
-        fontWeight: "bold",
         display: "block",
         marginBottom: "10px",
+        fontWeight: "bold",
     },
     input: {
         width: "100%",
         padding: "10px",
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        fontSize: "16px",
-        marginBottom: "15px",
+        marginBottom: "10px",
     },
     textarea: {
         width: "100%",
         padding: "10px",
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        fontSize: "16px",
-        marginBottom: "15px",
+        marginBottom: "10px",
     },
     select: {
         width: "100%",
         padding: "10px",
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        fontSize: "16px",
-        marginBottom: "15px",
+        marginBottom: "10px",
     },
     checkboxGroup: {
         display: "flex",
@@ -310,14 +305,11 @@ const styles: { [key: string]: React.CSSProperties } = {
     button: {
         padding: "10px 20px",
         backgroundColor: "#007bff",
-        color: "white",
+        color: "#fff",
         border: "none",
-        borderRadius: "4px",
-        fontSize: "16px",
-        cursor: "pointer",
+        borderRadius: "5px",
     },
 };
 
 export default DropdownOne;
-
 
