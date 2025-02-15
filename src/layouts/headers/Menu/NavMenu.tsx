@@ -38,16 +38,16 @@ const NavMenu = () => {
                 <Link className="nav-link" href="/">Home</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" href="/service_02">Page1</Link>
+                <Link className="nav-link" href="/project_details_01">Job Board</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" href="/project_details_01">Page2</Link>
+                <Link className="nav-link" href="/service_01">Submit Pharmacy</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" href="/about_us_01">Page3</Link>
+                <Link className="nav-link" href="/service_02">Close Job</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" href="/about_us_02">Page4</Link>
+                <Link className="nav-link" href="/about_us_01">FAQ</Link>
             </li>
         </ul>
     );

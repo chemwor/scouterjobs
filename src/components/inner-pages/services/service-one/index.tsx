@@ -8,18 +8,20 @@ import Feedback from "@/components/homes/home-one/Feedback"
 import FancyBanner from "./FancyBanner"
 import BLockFeatureTwo from "@/components/homes/home-four/BLockFeatureTwo"
 import FancyBannerCommon from "@/components/common/FancyBanner"
+import PharmacySubmitForm from "@/components/inner-pages/services/service-one/pharmacySubmit";
 
 const ServiceOne = () => {
    return (
       <>
          <HeaderOne style={true} />
          <BreadcrumbOne title="Our Services" link="#" link_title="Pages" sub_title="Services" style={false} />
-         <BlockFeatureOne/>
-         <HomeBLockFeatureOne />
-         <BlockFeatureTwo style={false} />
-         <FancyBanner />
-         <Feedback/>
-         <BLockFeatureTwo style={true} />
+         <PharmacySubmitForm/>
+          {/*<BlockFeatureOne/>*/}
+         {/*<HomeBLockFeatureOne />*/}
+         {/*<BlockFeatureTwo style={false} />*/}
+         {/*<FancyBanner />*/}
+         {/*<Feedback/>*/}
+         {/*<BLockFeatureTwo style={true} />*/}
          <FancyBannerCommon />
          <FooterFour />
       </>
