@@ -166,60 +166,6 @@ const JobBoardGrid = () => {
 
 
 
-// import React, { useEffect, useState } from "react";
-// import {Grid, Card, CardContent, Typography, Container, Button} from "@mui/material";
-//
-// const JobBoardGrid = () => {
-// 	const [data, setData] = useState([]);
-//
-// 	// Fetch data from backend API (replace with your API endpoint)
-// 	useEffect(() => {
-// 		fetch("https://jobboardfunction-68d2afeb6762.herokuapp.com/getJobs") // Backend API
-// 			.then((response) => response.json())
-// 			.then((data) => setData(data));
-// 	}, []);
-//
-// 	// 🔹 Local mock data for testing
-// 	const mockData = [
-// 		{ id: 1, name: "Medicine: Advil  Dosage: None in city: Chicago in state: Ga", email: "alice@example.com" },
-// 		{ id: 2, name: "Medicine: Advil  Dosage: None in city: Atlanta in state: Ga", email: "bob@example.com" },
-// 		{ id: 3, name: "Medicine: Advil  Dosage: None in city: New York in state: Ga", email: "charlie@example.com" },
-// 		{ id: 4, name: "Medicine: Advil  Dosage: None in city: Boston in state: Ga", email: "david@example.com" },
-// 		{ id: 5, name: "Medicine: Advil  Dosage: None in city: Miami in state: Ga", email: "emma@example.com" },
-// 		{ id: 6, name: "Medicine: Advil  Dosage: None in city: Denver in state: Ga", email: "frank@example.com" },
-// 	];
-//
-// 	const handleButtonClick = (id, name) => {
-// 		alert(`Viewing details for ${name} (ID: ${id})`);
-// 	};
-//
-// 	return (
-// 		<Container sx={{ mt: 4 }}>
-// 			<Grid container spacing={3}>
-// 				{data.map((item) => (
-// 					<Grid item xs={12} sm={6} md={4} key={item.id}>
-// 						<Card sx={{ p: 2, boxShadow: 3 }}>
-// 							<CardContent>
-// 								<Typography variant="h6" fontWeight="bold">
-// 									{item.job_description}
-// 								</Typography>
-// 								<Button
-// 									variant="contained"
-// 									color="primary"
-// 									sx={{ mt: 2 }}
-// 									onClick={() => handleButtonClick(item.id, item.name)}
-// 								>
-// 									Claim Job
-// 								</Button>
-// 							</CardContent>
-// 						</Card>
-// 					</Grid>
-// 				))}
-// 			</Grid>
-// 		</Container>
-// 	);
-// };
-
 export default JobBoardGrid;
 
 

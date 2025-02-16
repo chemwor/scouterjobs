@@ -8,20 +8,22 @@ import BLockFeatureTwo from "./BLockFeatureTwo"
 import FancyBanner from "@/components/common/FancyBanner"
 import BLockFeatureThree from "./BLockFeatureThree"
 import CloseJobForm from "../service-two/closeJob"
+import BLockFeatureFour from "@/components/homes/home-one/BLockFeatureFour";
+import HeaderOne from "@/layouts/headers/HeaderOne";
 
 
 const ServiceTwo = () => {
    return (
       <>
-         <HeaderFour />
+         <HeaderOne />
          <BreadcrumbThree title="Our Services" link="#" link_title="Pages" sub_title="Services" style={false} />
          <BLockFeatureOne />
           <CloseJobForm />
-         <Brand />
-         <BLockFeatureThree />
-         <BlockFeatureThree style={true} />
-         <BLockFeatureTwo />
-         <FancyBanner />
+         {/*<Brand />*/}
+         {/*<BLockFeatureThree />*/}
+         {/*<BlockFeatureThree style={true} />*/}
+         {/*<BLockFeatureTwo />*/}
+         <BLockFeatureFour />
          <FooterFour />
       </>
    )

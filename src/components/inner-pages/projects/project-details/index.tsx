@@ -4,15 +4,17 @@ import FooterFour from "@/layouts/footers/FooterFour"
 import ProjectDetailsArea from "./ProjectDetailsArea"
 import FancyBanner from "@/components/common/FancyBanner"
 import JobBoardGrid from "@/components/inner-pages/projects/project-details/jobBoard";
+import HeaderTwo from "@/layouts/headers/HeaderTwo";
+import HeaderOne from "@/layouts/headers/HeaderOne";
+import BLockFeatureFour from "@/components/homes/home-one/BLockFeatureFour";
 
 const ProjectFour = () => {
    return (
       <>
-         <HeaderFour />
-         <BreadcrumbThree title="Single Projects" link="pricing_01" link_title="Project" sub_title="Vintage City" style={false} />
+         <HeaderOne />
+         <BreadcrumbThree title="Claim A Job" link="pricing_01" link_title="Project" style={false} />
           <JobBoardGrid/>
-          {/*<ProjectDetailsArea />*/}
-         <FancyBanner />
+          <BLockFeatureFour/>
          <FooterFour />
       </>
    )

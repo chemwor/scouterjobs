@@ -18,16 +18,10 @@ const HomeOne = () => {
     <>
       <HeaderOne style={false} />
       <Banner />
-      <Feedback />
       <BLockFeatureOne />
-      <BLockFeatureTwo />
-      <BLockFeatureThree />
-      <Property />
-      <FancyBannerOne style={false} />
-      <AgentArea style={false} />
       <BLockFeatureFour />
       <BLockFeatureFive style={false} />
-      <FancyBanner style={false} />
+      {/*<FancyBanner style={false} />*/}
       <FancyBannerThree />
       <FooterOne style={false} />
     </>

@@ -12,8 +12,7 @@ const BLockFeatureFive = ({ style }: any) => {
             <div className="row">
                <div className="col-xl-8 m-auto">
                   <div className="title-one text-center mb-35 lg-mb-20">
-                     <h3>We’r here to help <br /> you get your <span>dream home<Image src={titleShape} alt="" className="lazy-img" /></span></h3>
-                     <p className="fs-24 color-dark">It’s easy to start with us with these simple steps</p>
+                     <h3>Why Work with Scouter Jobs?</h3>
                   </div>
                </div>
             </div>

@@ -13,15 +13,14 @@ const BLockFeatureFour = () => {
                <div className="col-lg-6 d-flex order-lg-last">
                   <div className="ps-xxl-5 ms-xl-4 pt-100 xl-pt-80 pb-45 w-100 h-100 wow fadeInRight">
                      <div className="title-one mb-60 lg-mb-40">
-                        <div className="upper-title">CB ESTIMATE</div>
-                        <h3>Get quick <span>estimate<Image src={titleShape} alt="" className="lazy-img" /></span> on your home.</h3>
-                        <p className="fs-24 color-dark">Master your property&apos;s valuation for a poised entry into the real estate market, armed with self-assurance and insight.</p>
+                        <h3>Stay Notified – Get Jobs First!</h3>
+                        <p className="fs-24 color-dark">Want to be the first to know when new gigs are available? Sign up for job alerts and get notified as soon as tasks are posted. The faster you claim a job, the quicker you can start earning!</p>
                      </div>
                      <form onSubmit={(e) => e.preventDefault()} className="me-xl-4">
                         <input type="email" placeholder="Your Email Address..." />
-                        <button>Find out</button>
+                        <button>Notify Me</button>
                      </form>
-                     <div className="fs-16 mt-10 opacity-75">*For accurate info please <Link href="/contact" className="fst-italic color-dark text-decoration-underline">contact us.</Link></div>
+                     <div className="fs-16 mt-10 opacity-75">🔹 No spam, just job alerts. You can unsubscribe anytime.</div>
                   </div>
                </div>
 
