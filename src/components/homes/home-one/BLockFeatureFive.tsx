@@ -12,7 +12,7 @@ const BLockFeatureFive = ({ style }: any) => {
             <div className="row">
                <div className="col-xl-8 m-auto">
                   <div className="title-one text-center mb-35 lg-mb-20">
-                     <h3>Why Work with Scouter Jobs?</h3>
+                     <h3>Why Work with Scouter Gigs?</h3>
                   </div>
                </div>
             </div>

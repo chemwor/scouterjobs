@@ -11,7 +11,7 @@ const Banner = () => {
          <div className="container position-relative">
             <div className="row">
                <div className="col-xxl-10 col-xl-9 col-lg-10 col-md-10 m-auto">
-                  <h1 className="hero-heading text-center wow fadeInUp">Scouter Jobs - Get Paid for Completing Simple Tasks</h1>
+                  <h1 className="hero-heading text-center wow fadeInUp">Scouter Gigs - Get Paid for Completing Simple Tasks</h1>
                   <p className="fs-24 color-dark text-center pt-35 pb-35 wow fadeInUp" data-wow-delay="0.1s">Earn Money on Your Own Terms</p>
                </div>
             </div>

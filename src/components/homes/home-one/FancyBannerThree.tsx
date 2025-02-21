@@ -14,7 +14,7 @@ const FancyBannerThree = () => {
                         <h2>Start Earning Today</h2>
                     </div>
                     <div className="title-one mb-45 md-mb-30">
-                        <p>Sign up now to begin taking gigs and making a difference. As Scouter Jobs expands, you’ll have even more ways to earn with new job opportunities</p>
+                        <p>Sign up now to begin taking gigs and making a difference. As Scouter Gigs expands, you’ll have even more ways to earn with new job opportunities</p>
                     </div>
                     <Link href="/contact" className="btn-five text-uppercase">Earn Now!</Link>
                 </div>
